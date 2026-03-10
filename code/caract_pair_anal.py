@@ -83,6 +83,6 @@ if data_itail is not None:
 plt.tight_layout()
 plt.show()
 
-# Curatenie
 for f in [TEMP_SP, DATA_ID_VGS, DATA_ID_ITAIL]:
+
     if os.path.exists(f): os.remove(f)
