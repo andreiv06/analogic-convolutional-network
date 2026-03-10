@@ -1,0 +1,14 @@
+* model_mos.lib
+.model NMOS NMOS (
++ LEVEL  = 8
++ VTO    = 0.4
++ TOX    = 4E-9
++ NSUB   = 1E17
++ UO     = 600
++ VMAX   = 1E5
++ RS     = 10
++ RD     = 10
++ KAPPA  = 0.2
++ ETA    = 0.2
++ THETA  = 0.1
++)
